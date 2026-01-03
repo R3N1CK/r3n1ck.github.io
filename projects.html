@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Renick Andrews</title>
+  <meta name="description" content="Selected Amazon growth projects: full-funnel Ads (SP/SB/SD/DSP), AMC NTB measurement, Vendor Central (COGS), A+ Content + Brand Store, Shopify D2C build, and listing approvals/appeals." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family:'Inter',sans-serif; background:#f4f5f7; }
+    .card { background:#fff; border:1px solid rgba(0,0,0,.06); }
+    .soft { box-shadow: 0 22px 45px rgba(0,0,0,.10); }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="text-gray-900">
+  <nav class="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
+    <a href="index.html" class="font-extrabold tracking-tight text-lg">
+      <span class="bg-black text-white px-3 py-1 rounded-lg">RA</span>
+    </a>
+    <div class="space-x-6 text-sm font-medium text-gray-500">
+      <a href="index.html#projects" class="hover:text-black">Home</a>
+      <a href="projects.html" class="text-black font-semibold">Projects</a>
+      <a href="contact.html" class="hover:text-black">Contact</a>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-6 pb-24">
+    <h1 class="text-3xl font-extrabold mb-8">Projects</h1>
+
+    <div class="grid grid-cols-1 gap-8">
+
+      <!-- FULL FUNNEL -->
+      <div class="card p-8 rounded-3xl">
+        <h2 class="text-xl font-extrabold">Full-Funnel Amazon Ads System ($5M+ / Month)</h2>
+        <p class="text-gray-600 mt-2">
+          Enterprise strategy across SP, SB, SD, and DSP with a balance of growth vs efficiency using
+          <strong>TACoS</strong>, rank signals, and incrementality.
+        </p>
+
+        <ul class="mt-4 text-sm text-gray-600 list-disc ml-5 space-y-1">
+          <li>Budget allocation by funnel stage + lifecycle</li>
+          <li>SQPR-led market analysis and keyword mapping</li>
+          <li>LTV-driven TACoS planning and rank defense</li>
+        </ul>
+
+        <!-- YOY GROWTH -->
+        <div class="mt-8 border-t border-black/5 pt-6">
+          <h3 class="font-semibold text-lg mb-2">Year-over-Year Growth via Full-Funnel Restructuring</h3>
+          <p class="text-gray-600 text-sm max-w-4xl">
+            Drove year-over-year growth by restructuring the Amazon Ads funnel to focus on incremental demand,
+            efficiency at scale, and long-term rank signals — not short-term ROAS inflation.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-600 list-disc ml-5 space-y-1">
+            <li>SQPR-led market analysis to identify scalable non-branded demand</li>
+            <li>Reduced over-dependence on branded spend</li>
+            <li>Reallocated budgets toward rank-driving and NTB keywords</li>
+            <li>Custom reporting to isolate waste and improve incrementality</li>
+            <li>Improved NTB contribution without sacrificing TACoS discipline</li>
+          </ul>
+
+          <div class="mt-6">
+            <img src="assets/salesyoy.png" alt="Year over year sales growth driven by full-funnel strategy"
+                 class="w-full max-w-5xl rounded-2xl border border-black/10" />
+            <p class="text-xs text-gray-400 mt-2">
+              YoY comparison from Seller Central showing growth driven by full-funnel strategy restructuring.
+            </p>
+          </div>
+        </div>
+
+        <!-- SQPR FUNNEL MAPPING VISUAL -->
+        <div class="mt-10 border-t border-black/5 pt-6">
+          <h3 class="font-semibold text-lg mb-2">SQPR → Funnel Mapping</h3>
+          <p class="text-gray-600 text-sm max-w-4xl">
+  Built funnel structure directly from SQPR performance signals.
+  <strong>High CVR keywords</strong> were treated as <strong>Purchase Intent</strong>,
+  while <strong>high-CTR, lower-CVR keywords</strong> were classified as
+  <strong>Consideration</strong>.
+  This removed guesswork from campaign design and allowed budgets to be allocated
+  by intent, not volume.
+</p>
+
+          <div class="mt-6">
+            <img src="assets/sqpr-funnel mapping.png" alt="SQPR funnel mapping"
+                 class="w-full max-w-5xl rounded-2xl border border-black/10" />
+          </div>
+        </div>
+
+        <!-- AMC NTB KEYWORD ATTRIBUTION -->
+        <div class="mt-10 border-t border-black/5 pt-6">
+          <h3 class="font-semibold text-lg mb-2">AMC Measurement: Keyword-Level New-to-Brand Attribution</h3>
+          <p class="text-gray-600 text-sm max-w-4xl">
+            Built a custom AMC query to attribute <strong>New-to-Brand (NTB) orders and sales</strong>
+            at the keyword and match-type level — enabling acquisition analysis not available in Amazon’s native reporting.
+          </p>
+
+          <ul class="mt-4 text-sm text-gray-600 list-disc ml-5 space-y-1">
+            <li>Custom SQL in AMC Query Editor to isolate NTB orders and sales</li>
+            <li>Mapped NTB performance by <strong>search term, keyword, and match type</strong></li>
+            <li>Identified high-acquisition keywords vs repeat/loyalty-heavy terms</li>
+            <li>Justified <strong>higher TACoS</strong> where acquisition was incremental</li>
+            <li>Reallocated budget away from low-incrementality keywords despite strong ROAS</li>
+          </ul>
+
+          <div class="mt-6">
+            <img src="assets/keyword-level ntb.png" alt="AMC keyword-level New-to-Brand attribution"
+                 class="w-full max-w-5xl rounded-2xl border border-black/10" />
+            <p class="text-xs text-gray-400 mt-2">
+              AMC Query Editor output — keyword-level New-to-Brand attribution (custom query).
+            </p>
+          </div>
+        </div>
+
+        <!-- BRANDED VS GENERIC -->
+        <div class="mt-10 border-t border-black/5 pt-6">
+          <h3 class="font-semibold text-lg mb-2">Branded vs Generic Spend Control</h3>
+          <p class="text-gray-600 text-sm max-w-4xl">
+            Built reporting to separate <strong>branded</strong>, <strong>generic</strong>, competitor, and target traffic,
+            reducing ROAS inflation and reallocating spend to incremental demand capture.
+          </p>
+
+          <div class="mt-6">
+            <img src="assets/Branded-generic-analysis.png" alt="Branded vs generic analysis"
+                 class="w-full max-w-5xl rounded-2xl border border-black/10" />
+          </div>
+        </div>
+      </div>
+
+      <!-- VENDOR CENTRAL (COGS) -->
+      <div class="p-8 rounded-3xl bg-zinc-900 text-white soft">
+        <h2 class="text-xl font-extrabold">Vendor Central & EU Marketplace Economics</h2>
+
+        <p class="text-zinc-300 mt-2 max-w-4xl">
+          Managed Vendor Central performance across EU marketplaces with a focus on
+          <strong>COGS-based growth</strong> — the only metric that reflects true brand revenue.
+          Amazon retail prices fluctuate independently and do not represent brand-side profitability.
+        </p>
+
+        <ul class="mt-4 text-sm text-zinc-300 list-disc ml-5 space-y-1">
+          <li>Tracked year-over-year growth using <strong>COGS</strong>, not shipped revenue</li>
+          <li>Analyzed ASIN-level performance across EU marketplaces</li>
+          <li>Balanced demand growth with contribution margin protection</li>
+          <li>Evaluated performance independent of Amazon’s retail price changes</li>
+        </ul>
+
+        <p class="text-zinc-300 text-sm mt-4">
+          Result: <strong>31%+ year-over-year growth in COGS</strong>, representing true brand-side growth.
+        </p>
+
+        <div class="mt-6">
+          <img src="assets/europevc.png" alt="Vendor Central year-over-year COGS growth across EU marketplaces"
+               class="w-full max-w-5xl rounded-2xl border border-white/10" />
+          <p class="text-xs text-zinc-400 mt-2">
+            Vendor Central ASIN-level YoY view — performance evaluated on COGS, not Amazon retail pricing.
+          </p>
+        </div>
+      </div>
+
+      <!-- A+ CONTENT + BRAND STORE -->
+      <div class="card p-8 rounded-3xl">
+        <h2 class="text-xl font-extrabold">A+ Content & Brand Store Systems (Conversion & Rank Support)</h2>
+        <p class="text-gray-600 mt-2">
+          Built A+ Content and Amazon Brand Store experiences designed to improve paid-traffic conversion,
+          reduce bounce, and reinforce relevance signals that support organic rank growth.
+        </p>
+
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold mb-2">Deliverables</h3>
+            <ul class="text-sm text-gray-600 list-disc ml-5 space-y-1">
+              <li>A+ layout planning (desktop + mobile)</li>
+              <li>Benefit-led module sequencing for high-intent landings</li>
+              <li>Brand story + comparison module planning</li>
+              <li>Amazon Brand Store page structure and navigation</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-2">What it supports</h3>
+            <ul class="text-sm text-gray-600 list-disc ml-5 space-y-1">
+              <li>Higher CVR from SP/SB/SD/DSP landings</li>
+              <li>Storefront journeys for Sponsored Brands</li>
+              <li>Lower bounce from paid traffic</li>
+              <li>Relevance reinforcement for organic rank</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <h3 class="font-semibold mb-3">Work Links</h3>
+          <div class="space-y-2 text-sm">
+            <a class="text-green-600 font-semibold" target="_blank"
+               href="https://sellercentral.amazon.in/aplus/api/GetContentPreview?contentId=48f50824-3b66-4fe1-b08e-b72e21b169d6&projectId=48f50824-3b66-4fe1-b08e-b72e21b169d6&revision=1691591355157&deviceType=DESKTOP">A+ Example 1 (Desktop)</a><br>
+            <a class="text-green-600 font-semibold" target="_blank"
+               href="https://sellercentral.amazon.in/aplus/api/GetContentPreview?contentId=a0c1fe8c-6bb1-42f8-82ff-fe37ad808fd9&projectId=a0c1fe8c-6bb1-42f8-82ff-fe37ad808fd9&revision=1760319436611&deviceType=DESKTOP">A+ Example 2 (Desktop)</a><br>
+            <a class="text-green-600 font-semibold" target="_blank"
+               href="https://sellercentral.amazon.in/aplus/api/GetContentPreview?contentId=a0c1fe8c-6bb1-42f8-82ff-fe37ad808fd9&projectId=a0c1fe8c-6bb1-42f8-82ff-fe37ad808fd9&revision=1760319436611&deviceType=MOBILE">A+ Example 2 (Mobile)</a><br>
+            <a class="text-green-600 font-semibold" target="_blank"
+               href="https://sellercentral.amazon.in/aplus/api/GetContentPreview?contentId=9757a0a3-fef7-45df-bca2-cd64513dd192&projectId=9757a0a3-fef7-45df-bca2-cd64513dd192&revision=1767075307651&deviceType=DESKTOP">A+ Example 3 (Desktop)</a><br><br>
+            <a class="text-green-600 font-semibold" target="_blank"
+               href="https://www.amazon.in/stores/Agromato/page/C0DAC47B-B006-4310-9ECA-032128EE60B3">Amazon Brand Store (Agromato)</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHOPIFY WEBSITE -->
+      <div class="card p-8 rounded-3xl">
+        <h2 class="text-xl font-extrabold">D2C Website Design & Growth Infrastructure (Shopify)</h2>
+        <p class="text-gray-600 mt-2">
+          Designed, built, and launched a Shopify-based B2C website end-to-end to support direct sales,
+          SEO discovery, and brand credibility beyond Amazon.
+        </p>
+
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold mb-2">Deliverables</h3>
+            <ul class="text-sm text-gray-600 list-disc ml-5 space-y-1">
+              <li>Shopify store setup and configuration</li>
+              <li>Site architecture, navigation, and collections</li>
+              <li>Product creation, merchandising, and PDP setup</li>
+              <li>Checkout and storefront UX optimization</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-2">SEO & growth foundation</h3>
+            <ul class="text-sm text-gray-600 list-disc ml-5 space-y-1">
+              <li>Keyword research for brand + category intent</li>
+              <li>On-page SEO (titles, meta, headers, internal links)</li>
+              <li>Crawlable structure and clean URLs</li>
+              <li>Conversion-focused page structure and trust signals</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-6 text-sm">
+          <a class="text-green-600 font-semibold" target="_blank" href="https://www.agromato.in">www.agromato.in</a>
+        </div>
+      </div>
+
+      <!-- CATALOG APPROVALS / APPEALS -->
+      <div class="card p-8 rounded-3xl">
+        <h2 class="text-xl font-extrabold">Catalog Access, Compliance & Listing Recovery</h2>
+        <p class="text-gray-600 mt-2">
+          Owned Seller Central “Selling Applications” workflows to secure listing eligibility — including GTIN exemptions,
+          ASIN approvals, catalog authorizations, and policy-aligned appeals. Executed deeply at Agromato and repeated across other brands.
+        </p>
+
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold mb-2">What I owned</h3>
+            <ul class="text-sm text-gray-600 list-disc ml-5 space-y-1">
+              <li>GTIN exemption applications and documentation</li>
+              <li>ASIN approvals for restricted listings</li>
+              <li>Catalog authorisation case handling</li>
+              <li>Appeal drafting aligned with Amazon policy language</li>
+              <li>Diagnosis + resubmissions (docs, attributes, policy gaps)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-2">Why it matters</h3>
+            <ul class="text-sm text-gray-600 list-disc ml-5 space-y-1">
+              <li>Prevents launch delays and listing downtime</li>
+              <li>Protects revenue continuity</li>
+              <li>Ensures ASINs remain eligible for advertising</li>
+              <li>Reduces operational risk during scale</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <img src="assets/selling.png" alt="Selling Applications approvals"
+               class="w-full max-w-5xl rounded-2xl border border-black/10" />
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

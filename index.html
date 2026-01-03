@@ -1,172 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <title>Renick Andrews | Amazon Ads Strategist</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
-        .bento-card { 
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            background: white;
-            border: 1px solid rgba(0,0,0,0.05);
-        }
-        .bento-card:hover { 
-            transform: translateY(-4px); 
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-            border-color: #22c55e;
-        }
-        .green-gradient {
-            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Renick Andrews | Amazon Ads Strategist</title>
+  <meta name="description" content="Renick Andrews — Amazon Ads strategist. I scale brands with intention. I own the strategy and the numbers; you own the vision." />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <meta property="og:title" content="Renick Andrews – Amazon Ads Strategist" />
+  <meta property="og:description" content="I scale brands with intention. I own the strategy and the numbers; you own the vision." />
+  <meta property="og:image" content="assets/42003734.jpg" />
+  <meta property="og:type" content="website" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; background:#f4f5f7; }
+    .card { background:#fff; border:1px solid rgba(0,0,0,.06); transition: all .25s ease; }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 18px 30px rgba(0,0,0,.08); }
+    .green { background: linear-gradient(135deg,#22c55e,#16a34a); }
+    .soft { box-shadow: 0 22px 45px rgba(0,0,0,.10); }
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
-<body class="text-gray-900 antialiased">
 
-    <!-- NAV -->
-    <nav class="max-w-5xl mx-auto px-6 py-8 flex justify-between items-center">
-        <div class="font-bold text-xl tracking-tighter bg-black text-white px-3 py-1 rounded-lg">RA</div>
-        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-500">
-            <a href="#" class="hover:text-black">Projects</a>
-            <a href="#" class="hover:text-black">Approach</a>
-            <a href="#" class="text-green-600 font-bold">Contact</a>
+<body class="text-gray-900">
+  <!-- NAV -->
+  <nav class="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
+    <div class="font-extrabold tracking-tight text-lg">
+      <span class="bg-black text-white px-3 py-1 rounded-lg">RA</span>
+    </div>
+    <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
+      <a href="#projects" class="hover:text-black">Projects</a>
+      <a href="contact.html" class="text-green-600 font-semibold hover:text-green-700">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="max-w-6xl mx-auto px-6 pt-10 pb-6">
+    <div class="flex flex-col md:flex-row items-start md:items-center gap-12">
+      <div class="md:w-2/3">
+        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
+          Hey, I’m Renick.
+          <span class="block text-gray-400 font-extrabold">
+            I scale brands with <span class="text-green-500">intention.</span>
+          </span>
+        </h1>
+
+        <p class="mt-6 text-lg text-gray-600 max-w-2xl">
+          I own the strategy and the numbers; you own the vision.
+          Full-funnel Amazon growth across <strong>SP, SB, SD, and DSP</strong> — built around
+          <strong>TACoS</strong>, <strong>organic rank growth</strong>, and <strong>BSR stability</strong>.
+        </p>
+
+        <div class="mt-8 flex gap-4">
+          <a href="#projects" class="green text-white px-6 py-3 rounded-full font-semibold soft">
+            View Projects
+          </a>
+          <a href="contact.html" class="bg-white border border-gray-200 px-6 py-3 rounded-full font-semibold hover:bg-gray-50">
+            Contact Me
+          </a>
         </div>
-    </nav>
+      </div>
 
-    <!-- HERO -->
-    <header class="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-2/3">
-            <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
-                Hey, I’m Renick. <br>
-                <span class="text-gray-400">
-                    I build <span class="text-green-500">full-funnel Amazon Ads systems</span>
-                </span>
-            </h1>
-            <p class="text-lg text-gray-500 max-w-xl mb-8">
-                Most Amazon accounts fail by chasing short-term ROAS.  
-                I help brands grow <strong>profitably and predictably</strong> by aligning Ads, organic rank,
-                and product economics across the entire funnel.
-            </p>
-            <div class="flex gap-4">
-                <button class="green-gradient text-white px-6 py-3 rounded-full font-semibold shadow-lg shadow-green-200">
-                    View Projects
-                </button>
-                <button class="bg-white border border-gray-200 px-6 py-3 rounded-full font-semibold hover:bg-gray-50">
-                    Contact Me
-                </button>
-            </div>
+      <div class="md:w-1/3 w-full flex md:justify-end">
+        <div class="bg-white rounded-[2rem] p-3 soft">
+          <div class="w-[280px] h-[220px] rounded-[1.6rem] overflow-hidden transform rotate-3">
+            <img src="assets/42003734.jpg" alt="Renick Andrews"
+                 class="w-full h-full object-cover transform -rotate-3" />
+          </div>
         </div>
-        <div class="md:w-1/3">
-            <div class="w-64 h-64 bg-gray-200 rounded-[2.5rem] rotate-3 overflow-hidden border-8 border-white shadow-2xl">
-                <img src="assets/42003734.jpg">
-                     alt="Profile"
-                     class="w-full h-full object-cover -rotate-3 hover:rotate-0 transition-transform duration-500">
-            </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- APPROACH (kept but not in nav) -->
+  <section id="approach" class="max-w-6xl mx-auto px-6 pt-14 pb-10">
+    <h2 class="text-2xl font-extrabold mb-6">Approach</h2>
+
+    <div class="card rounded-[2rem] p-10">
+      <p class="text-gray-700 text-lg max-w-4xl">
+        I don’t optimize ads in isolation. I design strategy that supports
+        <strong>profitability</strong>, <strong>organic rank growth</strong>, and <strong>long-term scale</strong>.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <ul class="text-gray-700 space-y-3 list-disc ml-5 marker:text-green-600">
+          <li>Full-funnel strategy across <strong>SP, SB, SD, and DSP</strong></li>
+          <li><strong>Rank-driving</strong> vs <strong>efficiency-driving</strong> campaign structure</li>
+          <li><strong>SQPR-led</strong> market analysis</li>
+        </ul>
+
+        <ul class="text-gray-700 space-y-3 list-disc ml-5 marker:text-green-600">
+          <li>Reduce wasted spend using <strong>custom reports</strong> and <strong>isolation strategies</strong></li>
+          <li>Product-specific strategies by product lines: <strong>CPG vs Durable</strong></li>
+          <li><strong>LTV-driven TACoS</strong> instead of short-term ROAS chasing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <main id="projects" class="max-w-6xl mx-auto px-6 pb-24 pt-10">
+    <h2 class="text-2xl font-extrabold mb-8">Portfolio Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Full Funnel -->
+      <div class="card rounded-[2rem] p-10 md:col-span-2">
+        <div class="w-12 h-12 rounded-xl green flex items-center justify-center text-white mb-6">
+          <span class="text-xl font-bold">↗</span>
         </div>
-    </header>
 
-    <!-- PROJECTS -->
-    <main class="max-w-5xl mx-auto px-6 pb-24">
-        <h2 class="text-2xl font-bold mb-8">Portfolio Projects</h2>
+        <h3 class="text-2xl font-extrabold mb-2">Full-Funnel Amazon Ads System</h3>
+        <p class="text-gray-600">
+          Built and managed enterprise-level strategy across SP, SB, SD, and DSP —
+          balancing growth vs efficiency using <strong>TACoS</strong>, rank signals, and incrementality.
+        </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <p class="text-sm text-gray-500 mt-4">
+          <strong>Deliverables:</strong> Funnel architecture, budget allocation model, SQPR-led keyword mapping,
+          DSP audience layering, rank defense, and custom measurement.
+        </p>
 
-            <!-- PROJECT 1 -->
-            <div class="md:col-span-2 bento-card rounded-[2rem] p-8 flex flex-col justify-between min-h-[320px]">
-                <div>
-                    <div class="w-12 h-12 green-gradient rounded-xl mb-6 flex items-center justify-center text-white">
-                        <i data-lucide="trending-up"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold">Full-Funnel Amazon Ads System</h3>
-                    <p class="text-gray-500 mt-2">
-                        Built and managed enterprise-level Amazon Ads strategy across SP, SB, SD, and DSP,
-                        balancing growth vs efficiency using TACoS and rank signals.
-                    </p>
-                    <p class="text-sm text-gray-400 mt-4">
-                        <strong>Deliverables:</strong> Funnel architecture, budget allocation model,
-                        SQPR-based keyword mapping, DSP audience layering, rank defense framework.
-                    </p>
-                </div>
-                <span class="text-xs font-bold uppercase tracking-widest text-green-600 bg-green-50 px-3 py-1 rounded-full self-start mt-6">
-                    $5M+ Monthly Spend
-                </span>
-            </div>
-
-            <!-- PROJECT 2 -->
-            <div class="bento-card rounded-[2rem] p-8 flex flex-col justify-between min-h-[320px]">
-                <div>
-                    <div class="w-12 h-12 bg-blue-500 rounded-xl mb-6 flex items-center justify-center text-white">
-                        <i data-lucide="shopping-cart"></i>
-                    </div>
-                    <h3 class="text-xl font-bold">In-House Brand Scaling</h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Owned Amazon store end-to-end: listings, pricing, promotions, ads, and catalog health.
-                    </p>
-                    <p class="text-xs text-gray-400 mt-4">
-                        Focus on Buy Box stability, CVR lift, and organic rank growth.
-                    </p>
-                </div>
-            </div>
-
-            <!-- PROJECT 3 -->
-            <div class="bento-card rounded-[2rem] p-8 flex flex-col justify-between min-h-[320px]">
-                <div>
-                    <div class="w-12 h-12 bg-zinc-900 rounded-xl mb-6 flex items-center justify-center text-white">
-                        <i data-lucide="globe"></i>
-                    </div>
-                    <h3 class="text-xl font-bold">Amazon EU Expansion</h3>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Scaled and optimized ads across Germany, Italy, Spain, France, and UK marketplaces.
-                    </p>
-                    <p class="text-xs text-gray-400 mt-4">
-                        Localization, keyword intent shifts, and market-specific TACoS control.
-                    </p>
-                </div>
-            </div>
-
-            <!-- PROJECT 4 -->
-            <div class="md:col-span-2 bento-card rounded-[2rem] p-8 flex flex-col justify-between min-h-[320px] bg-zinc-900 !border-none text-white">
-                <div>
-                    <div class="w-12 h-12 bg-zinc-700 rounded-xl mb-6 flex items-center justify-center text-white">
-                        <i data-lucide="layers"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold">Vendor Central & Economics</h3>
-                    <p class="text-zinc-400 mt-2">
-                        Worked with Vendor Central brands to optimize COGS, contribution margin,
-                        and ad incrementality — not just surface-level ROAS.
-                    </p>
-                    <p class="text-sm text-zinc-500 mt-4">
-                        Cost modeling, promo impact analysis, and profitability-first scaling.
-                    </p>
-                </div>
-                <span class="text-xs font-bold uppercase tracking-widest text-zinc-400 border border-zinc-700 px-3 py-1 rounded-full self-start mt-6">
-                    Vendor-Side Strategy
-                </span>
-            </div>
-
+        <div class="mt-6">
+          <span class="inline-flex items-center text-xs font-bold tracking-widest text-green-700 bg-green-50 px-4 py-2 rounded-full">
+            $5M+ MONTHLY SPEND
+          </span>
         </div>
-    </main>
+      </div>
 
-    <!-- FOOTER -->
-    <footer class="bg-white border-t border-gray-100 py-12">
-        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p class="text-gray-400 text-sm">© 2026 Renick Andrews</p>
-            <div class="flex space-x-6">
-                <a href="#" class="text-gray-400 hover:text-green-500"><i data-lucide="linkedin"></i></a>
-                <a href="#" class="text-gray-400 hover:text-green-500"><i data-lucide="mail"></i></a>
-            </div>
+      <!-- AMC -->
+      <div class="card rounded-[2rem] p-10">
+        <div class="w-12 h-12 rounded-xl bg-black flex items-center justify-center text-white mb-6">
+          <span class="text-xl font-bold">SQL</span>
         </div>
-    </footer>
+        <h3 class="text-xl font-extrabold mb-2">AMC NTB Keyword Attribution</h3>
+        <p class="text-gray-600 text-sm">
+          Built a custom AMC query to measure <strong>New-to-Brand</strong> orders and sales at
+          keyword + match-type level — enabling true acquisition optimization.
+        </p>
+      </div>
 
-    <script>
-        lucide.createIcons();
-    </script>
+      <!-- Vendor Central -->
+      <div class="rounded-[2rem] p-10 md:col-span-3 bg-zinc-900 text-white soft">
+        <div class="w-12 h-12 rounded-xl bg-zinc-700 flex items-center justify-center text-white mb-6">
+          <span class="text-xl font-bold">VC</span>
+        </div>
+        <h3 class="text-2xl font-extrabold mb-2">Vendor Central & EU Marketplace Economics</h3>
+        <p class="text-zinc-300 max-w-4xl">
+          Managed Vendor Central performance with a focus on <strong>COGS-based growth</strong> —
+          the metric that reflects true brand revenue. Amazon retail prices fluctuate and don’t represent brand-side profitability.
+        </p>
+        <p class="text-zinc-300 text-sm mt-4">
+          Highlight: <strong>31%+ YoY growth in COGS</strong>.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-10">
+      <a href="projects.html"
+         class="inline-flex items-center gap-2 text-base md:text-lg font-semibold text-gray-800 bg-white border border-black/10 px-5 py-3 rounded-2xl hover:bg-gray-50">
+        Full project list (A+ Content + Brand Store, Shopify website build, catalog approvals & appeals) →
+        <span class="text-green-600 font-extrabold">Projects</span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="py-10 text-center text-gray-400 text-sm border-t border-gray-200">
+    © 2026 Renick Andrews
+  </footer>
 </body>
 </html>
-
-
-
